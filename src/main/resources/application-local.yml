@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://winey-zzap.c1gqmrogglzk.ap-northeast-2.rds.amazonaws.com:3306/wineyzzap
+    username: kwhn
+    password: kekkek4463!
+  config:
+    activate:
+      on-profile: local
