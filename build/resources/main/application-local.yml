@@ -4,9 +4,9 @@ spring:
       ddl-auto: create
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://winey-zzap.c1gqmrogglzk.ap-northeast-2.rds.amazonaws.com:3306/wineyzzap
-    username: kwhn
-    password: kekkek4463!
+    url: ${LOCAL_DB_URL}
+    username: ${LOCAL_DB_USERNAME}
+    password: ${LOCAL_DB_PASSWORD}
   config:
     activate:
       on-profile: local
