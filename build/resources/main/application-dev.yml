@@ -4,9 +4,9 @@ spring:
       ddl-auto: update
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: ${DEV_DB_URL}
-    username: ${DEV_DB_USERNAME}
-    password: ${DEV_DB_PASSWORD}
+    url: ENC(L5amHDsuf8nDJFFssZkpNYuwZ4PPxnWvyuCPR32I+CFvRS0iLdAXhXFgfeNSOM4JcOJUritdGsA/VkJMO6KPNAtlpZ+pGEHm4bF2lhCBENlTdJnCnEc7AA==)
+    username: ENC(X+PwRX3fT8xSUo2yzwsyVQ==)
+    password: ENC(DV7GG7d8u7WL19cLaGbaTIDvNPfjy+Vf)
   config:
     activate:
       on-profile: dev

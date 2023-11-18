@@ -4,9 +4,9 @@ spring:
       ddl-auto: create
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: ${LOCAL_DB_URL}
-    username: ${LOCAL_DB_USERNAME}
-    password: ${LOCAL_DB_PASSWORD}
+    url: ENC(VZdwuYC/iG8ingC8UmMEMCFeUmNCqV6VOewF31BkBEHzzqHNS2sDu1oaMcIHEtgKVEKdWVHs37vgEWCfHOQImf7IbnnVbKmVWPF38J1ZOs/KpXPGoJPmvxFc3LcWyT8X)
+    username: ENC(txENF2Jl4BXJUVR799YUJg==)
+    password: ENC(/wF3XthTGPs+ptbFRHZtCUMlwP/UdxpC)
   config:
     activate:
       on-profile: local
