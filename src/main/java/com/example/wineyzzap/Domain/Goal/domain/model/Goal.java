@@ -1,12 +1,11 @@
-package com.example.wineyzzap.Domain.Goal;
+package com.example.wineyzzap.Domain.Goal.domain.model;
 
-import com.example.wineyzzap.Domain.Base.BaseTimeLog;
-import com.example.wineyzzap.Domain.Feed.Feed;
-import com.example.wineyzzap.Domain.User.User;
+import com.example.wineyzzap.Domain.User.domain.model.User;
+import com.example.wineyzzap.Global.model.BaseTimeLog;
+import com.example.wineyzzap.Domain.Feed.domain.model.Feed;
 import lombok.Getter;
 
 import javax.persistence.*;
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

@@ -1,8 +1,7 @@
-package com.example.wineyzzap.Domain.FeedLike;
+package com.example.wineyzzap.Domain.Feed.domain.model;
 
-import com.example.wineyzzap.Domain.Base.BaseTimeLog;
-import com.example.wineyzzap.Domain.Feed.Feed;
-import com.example.wineyzzap.Domain.User.User;
+import com.example.wineyzzap.Global.model.BaseTimeLog;
+import com.example.wineyzzap.Domain.User.domain.model.User;
 import lombok.Getter;
 
 import javax.persistence.*;

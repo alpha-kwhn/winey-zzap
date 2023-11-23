@@ -1,4 +1,4 @@
-package com.example.wineyzzap.Config;
+package com.example.wineyzzap.Global.config;
 
 import org.jasypt.encryption.StringEncryptor;
 import org.jasypt.encryption.pbe.PooledPBEStringEncryptor;

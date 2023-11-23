@@ -1,11 +1,13 @@
-package com.example.wineyzzap.Domain.User;
+package com.example.wineyzzap.Domain.User.domain.model;
 
-import com.example.wineyzzap.Domain.Base.BaseTimeLog;
-import com.example.wineyzzap.Domain.Comment.Comment;
-import com.example.wineyzzap.Domain.Feed.Feed;
-import com.example.wineyzzap.Domain.FeedLike.FeedLike;
-import com.example.wineyzzap.Domain.Goal.Goal;
-import com.example.wineyzzap.Domain.Noti.Notification;
+import com.example.wineyzzap.Domain.Comment.domain.model.Comment;
+import com.example.wineyzzap.Domain.Feed.domain.model.FeedLike;
+import com.example.wineyzzap.Domain.User.enums.Level;
+import com.example.wineyzzap.Domain.User.enums.Social;
+import com.example.wineyzzap.Global.model.BaseTimeLog;
+import com.example.wineyzzap.Domain.Feed.domain.model.Feed;
+import com.example.wineyzzap.Domain.Goal.domain.model.Goal;
+import com.example.wineyzzap.Domain.Notification.domain.model.Notification;
 import lombok.Getter;
 
 import javax.persistence.*;

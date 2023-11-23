@@ -1,4 +1,4 @@
-package com.example.wineyzzap.Domain.Base;
+package com.example.wineyzzap.Global.model;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

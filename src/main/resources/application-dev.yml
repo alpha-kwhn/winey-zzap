@@ -1,7 +1,7 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: ENC(L5amHDsuf8nDJFFssZkpNYuwZ4PPxnWvyuCPR32I+CFvRS0iLdAXhXFgfeNSOM4JcOJUritdGsA/VkJMO6KPNAtlpZ+pGEHm4bF2lhCBENlTdJnCnEc7AA==)

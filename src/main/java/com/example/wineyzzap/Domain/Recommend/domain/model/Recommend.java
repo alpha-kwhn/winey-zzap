@@ -1,11 +1,9 @@
-package com.example.wineyzzap.Domain.Recommend;
+package com.example.wineyzzap.Domain.Recommend.domain.model;
 
-import com.example.wineyzzap.Domain.Base.BaseTimeLog;
-import com.example.wineyzzap.Domain.User.User;
+import com.example.wineyzzap.Global.model.BaseTimeLog;
 import lombok.Getter;
 
 import javax.persistence.*;
-import java.math.BigInteger;
 
 @Entity
 @Getter

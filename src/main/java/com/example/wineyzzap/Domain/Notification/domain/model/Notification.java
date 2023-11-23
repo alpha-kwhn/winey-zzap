@@ -1,7 +1,7 @@
-package com.example.wineyzzap.Domain.Noti;
+package com.example.wineyzzap.Domain.Notification.domain.model;
 
-import com.example.wineyzzap.Domain.Base.BaseTimeLog;
-import com.example.wineyzzap.Domain.User.User;
+import com.example.wineyzzap.Domain.User.domain.model.User;
+import com.example.wineyzzap.Global.model.BaseTimeLog;
 import lombok.Getter;
 
 import javax.persistence.*;

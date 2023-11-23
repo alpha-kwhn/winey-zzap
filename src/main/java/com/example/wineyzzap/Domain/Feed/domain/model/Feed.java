@@ -1,9 +1,8 @@
-package com.example.wineyzzap.Domain.Feed;
+package com.example.wineyzzap.Domain.Feed.domain.model;
 
-import com.example.wineyzzap.Domain.Base.BaseTimeLog;
-import com.example.wineyzzap.Domain.FeedLike.FeedLike;
-import com.example.wineyzzap.Domain.Goal.Goal;
-import com.example.wineyzzap.Domain.User.User;
+import com.example.wineyzzap.Domain.Goal.domain.model.Goal;
+import com.example.wineyzzap.Domain.User.domain.model.User;
+import com.example.wineyzzap.Global.model.BaseTimeLog;
 import lombok.Getter;
 
 import javax.persistence.*;
@@ -31,7 +30,7 @@ public class Feed extends BaseTimeLog {
     private User feedUser;
 
     @OneToMany(mappedBy = "likeFeed")
-    private List<FeedLike> likes = new ArrayList<FeedLike>();
+    private List<FeedLike> likes = new ArrayList<>();
 
     public void setGoal(Goal goal) { this.feedGoal = goal; }
 
